@@ -1,0 +1,112 @@
+/* Write some CSS below */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@300;400;500;700&display=swap');
+h1, h3, h4 {
+  font-family: 'Oswald', sans-serif;
+}
+
+body {
+  color: #4f4f4f;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+h4.subtitle {
+  font-size: 22px;
+  color: rgb(180, 180, 180);
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* .page-title:hover {
+  color: #99E1D9;
+} */
+
+.page-title {
+  margin-top: 40px;
+  margin-bottom: 0px;
+  font-size: 55px;
+  text-align: center;
+  color: white;
+}
+
+.section-title {
+  font-size: 32px;
+}
+
+.banner {
+  background-image: url("images/background.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.campuses {
+  padding: 0 16vw;
+  margin: 40px 0;
+}
+
+.btn {
+  border: none;
+  padding: 12px 24px;
+  border-radius: 4px;
+  transition: .3s;
+}
+
+.cards img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1FR 1FR 1FR;
+  gap: 20px;
+}
+
+.card {
+  /* les bords arrondis */
+  border-radius: 8px;
+  /* elle a un padding */
+  padding: 25px;
+  /* elle a une ombre */
+  box-shadow: 0px 0px 16px rgba(131,131,131,0.66);
+}
+
+.btn-blue {
+  background-color: #1A48E3;
+}
+
+.btn-blue:hover {
+  background-color: #0D1EC6;
+}
+
+.btn-blue a {
+  color: white;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.footer {
+  background-color: #404042;
+  /* padding: 40px; pareil de tous les côtés */
+  /* padding: 80px 16vw; 80px en haut et en bas et 16vw à gauche et à droite */
+  /* padding: 80px 16vw 40px 8vw; valeur à gauche, haut, droite et bas */
+  padding: 80px 16vw;
+}
+
+.footer span {
+  color: white;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
